@@ -6,4 +6,4 @@ b=int(input("podaj długość boku b prostokąta: "))
 
 p=a*b
 o=2*a+2*b
-print("Pole prostokąta wynosi " + str(int(p)) + ", natomimast obwód wynosic " + str(int(o)))
+print(f"Pole prostokąta wynosi {int(p)}, natomimast obwód wynosic {int(o)}")
