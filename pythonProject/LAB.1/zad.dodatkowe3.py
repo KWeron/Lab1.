@@ -2,6 +2,7 @@ a=float(input("Podaj wartość a: "))
 b=float(input("Podaj wartość b: "))
 # d-wynik z dodawania
 # o-wynik z odejmownaia
+# m-wynik z mnożenia
 # l-wynik z dzielenia
 
 #dodawanie
@@ -12,6 +13,9 @@ o1=a-b
 print(f"Wynik z odejmowania a-b wynosi: {float(o1)}")
 o2=b-a
 print(f"Wynik z odejmownia b-a wynosi: {float(o2)}")
+#mnożenie
+m=a*b
+print(f"Wynik z mnożenia wynosi: {float(m)}")
 #dzielenie
 if b==0:
     print("Dzielenie a/b nie ma rozwiązania")
