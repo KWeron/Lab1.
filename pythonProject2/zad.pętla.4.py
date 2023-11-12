@@ -15,10 +15,11 @@ else:
 
 if a!=b:
     while p<=k:
-        p += 1
         if p%2==0:
             print(p)
+            p += 1
         else:
+            p += 1
             continue
     else:
         print("KONIEC")
