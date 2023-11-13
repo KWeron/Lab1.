@@ -10,9 +10,8 @@ s=0
 #s-suma
 
 while x <= n:
-    o = (random.randint(1, 40))
+    o = int(input(f"Podaj liczbę punktów studenta {x}: "))
     s += o
-    print("Liczba punktów studenta:",x,"wynosi: ",o)
     x += 1
 
 ś=s/n
