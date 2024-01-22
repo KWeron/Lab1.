@@ -23,3 +23,4 @@ def poczatek():
         except ValueError:
             print("Nie podałeś liczb")
     print("Nie udało się :(")
+poczatek()
